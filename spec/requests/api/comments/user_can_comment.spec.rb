@@ -2,9 +2,8 @@ RSpec.describe 'POST /api/comment', type: :request do
   let!(:article) { create(:article) }
   
   describe 'successfully creates comment' do
-    let!(:comment) { create(:comment)}
     before do 
-      post '/api/comment'
+      post '/api/comments'
     end
 
     it 'returns a 200 response' do
