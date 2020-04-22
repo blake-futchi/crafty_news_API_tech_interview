@@ -11,7 +11,7 @@ RSpec.describe 'POST /api/comment', type: :request do
     end
 
     it 'returns three articles' do
-      expect(response_json['message']).to eq "Your comment has been created"
+      expect(response_json['message']).to eq 'Your comment has been created'
     end
   end
 end
