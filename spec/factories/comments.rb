@@ -1,7 +1,5 @@
 FactoryBot.define do
   factory :comment do
-    commenter { "MyString" }
-    body { "MyText" }
-    article { nil }
+    body { "Your comment has been created" }
   end
 end
